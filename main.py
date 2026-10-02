@@ -6,6 +6,7 @@ print("-----------------")
 print("Use fictional data only.\n")
 
 process = input("Process: ")
+data_subject = input("Data subject: ")
 personal_data = input("Personal data: ")
 purpose = input("Purpose: ")
 legal_basis = input("Legal basis: ")
@@ -14,6 +15,7 @@ retention_period = input("Retention period: ")
 
 processing_activity = {
     "Process": process,
+    "Data subject": data_subject,
     "Personal data": personal_data,
     "Purpose": purpose,
     "Legal basis": legal_basis,
