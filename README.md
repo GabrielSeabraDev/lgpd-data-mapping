@@ -10,16 +10,17 @@ The goal is to explore how programming can be used to organize information relat
 
 ## Current Features
 
-The first version stores a fictional data processing activity containing information such as:
+The current version allows users to:
 
-- Process
-- Personal data
-- Purpose
-- Legal basis
-- Data sharing
-- Retention period
-
-The program then displays the information in a structured format.
+- Register personal data processing activities
+- Identify the data subject
+- Record the personal data involved
+- Define the purpose of processing
+- Record the legal basis
+- Record data sharing information
+- Define a retention period
+- Register multiple processing activities during the same execution
+- Display all registered activities in a structured format
 
 ## Technologies
 
@@ -35,7 +36,6 @@ lgpd-data-mapping/
 ├── README.md
 └── .gitignore
 ```
-
 ## Privacy and Data Protection
 
 This repository uses **fictional data only**.
@@ -52,20 +52,20 @@ It does not constitute legal advice and should not be used as an automated asses
 
 Future versions may include:
 
-- User input
-- Multiple processing activities
 - Data categories
 - Data subject categories
 - Legal basis selection
 - Data sharing records
-- Retention periods
+- Improved retention period management
 - Exporting records
+- Data persistence
 - Basic privacy risk analysis
+- Improved input validation
 
 ## Author
 
 **Gabriel Seabra**
 
-Lawyer | Data Protection & LGPD | Cybersecurity | Software Development
+Law Graduate | Data Protection & LGPD | Cybersecurity | Software Development
 
 [LinkedIn](https://www.linkedin.com/in/gabriellseabra/)
